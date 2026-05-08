@@ -1,0 +1,29 @@
+{
+  "name": "nbcl-highlighting",
+  "displayName": "nbcl highlighting",
+  "description": "Syntax highlighting for NBCL configurations",
+  "version": "0.0.1",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/NBCL-Lang/nbcl-highlighting-vscode"
+  },
+  "engines": {
+    "vscode": "^1.118.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "nbcl",
+      "aliases": ["Node Based Configuration Language", "nbcl"],
+      "extensions": [".nbl"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "nbcl",
+      "scopeName": "source.nbl",
+      "path": "./syntaxes/nbcl.tmLanguage.json"
+    }]
+  }
+}
