@@ -47,7 +47,7 @@
         },
         "types": {
             "name": "support.type.nbcl",
-            "match": "\\b(String|Int|Float|Bool|List|Map|Any)\\b"
+            "match": "\\b(String|Int|Float|Bool|List|Map|Node|Lambda|Any)\\b"
         },
         "booleans": {
             "name": "constant.language.nbcl",
