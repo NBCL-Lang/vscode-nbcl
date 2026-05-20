@@ -17,12 +17,12 @@
     "languages": [{
       "id": "nbcl",
       "aliases": ["Node Based Configuration Language", "nbcl"],
-      "extensions": [".nbl"],
+      "extensions": [".nbcl"],
       "configuration": "./language-configuration.json"
     }],
     "grammars": [{
       "language": "nbcl",
-      "scopeName": "source.nbl",
+      "scopeName": "source.nbcl",
       "path": "./syntaxes/nbcl.tmLanguage.json"
     }]
   }
