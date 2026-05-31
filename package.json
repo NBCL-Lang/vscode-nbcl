@@ -1,14 +1,14 @@
 {
   "name": "nbcl-highlighting",
-  "displayName": "nbcl highlighting",
+  "displayName": "Nbcl Highlighting",
   "description": "Syntax highlighting for NBCL configurations",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "Byson94dev",
   "repository": {
       "type": "git",
-      "url": "https://github.com/NBCL-Lang/nbcl-highlighting-vscode"
+      "url": "https://github.com/NBCL-Lang/vcode-nbcl"
   },
-  "icon": "images/icon.svg",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.118.0"
   },
