@@ -2,7 +2,7 @@
   "name": "nbcl-highlighting",
   "displayName": "Nbcl Highlighting",
   "description": "Syntax highlighting for NBCL configurations",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "publisher": "Byson94dev",
   "repository": {
       "type": "git",
